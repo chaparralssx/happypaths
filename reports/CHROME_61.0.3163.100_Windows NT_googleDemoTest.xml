@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="2">
+
+  <testsuite name="googleDemoTest"
+    errors="2" failures="1" hostname="" id="" package="googleDemoTest" skipped="0"
+    tests="2" time="8.146" timestamp="Thu, 05 Oct 2017 21:29:11 GMT">
+  
+    <testcase name="demo test WOW" classname="googleDemoTest" time="6.979" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="part two" classname="googleDemoTest" time="1.167" assertions="1">  <failure message="Testing if element &lt;#main&gt; contains text: &quot;Night Watch&quot;. Element could not be located.">    at Object.part two (C:\Users\rscottbl\Documents\apps\nightwatch\examples\tests\wow\googleDemoTest.js:19:15)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.part two (C:\Users\rscottbl\Documents\apps\nightwatch\examples\tests\wow\googleDemoTest.js:17:8)
+    at Module.call (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;#main&quot; using: css selector
+    at command (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\api\assertions\containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Users\rscottbl\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
